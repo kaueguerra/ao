@@ -1,0 +1,35 @@
+.Imagem{
+    width: 60px!important;
+    height: 40px!important;
+}
+.div-todasimagens{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    text-align: center;
+    margin-top: 25px;
+    position: inherit;
+
+}
+.titulo{
+    font-size: 10px;
+    color: rgb(146, 83, 204);
+    margin-bottom: 7px;
+    text-align: center;
+}
+@media screen and (min-width: 1024px) {
+  .Imagem {
+    border-top: 10px groove rgb(47, 87, 173);
+    border-left:  10px groove rgb(47, 87, 173);
+    border-right:  10px groove rgb(47, 87, 173);
+    border-bottom: 10px groove rgb(47, 87, 173);
+
+  }
+  .titulo {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+  }
+  .secao_banner {
+    width: 100%;
+    display: block;
+  }
+  }
